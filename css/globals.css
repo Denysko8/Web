@@ -1,5 +1,5 @@
 body {
-
+    overflow-x: hidden;
     font-family: "Roboto", "Arial", sans-serif;
     color: #37447E;
 }
@@ -14,9 +14,7 @@ li {
 
 
 .container {
-    margin: 0 auto;
     position: relative;
-    margin-left: 20%;
 }
 
 .container1 {
@@ -41,13 +39,17 @@ li {
 
 .container3 {
     margin: 0 auto;
-    max-width: 1105px;
     height: 770px;
 
 }
 
+.prefooter {
+    padding-top: 59px;
+    margin-left: 15%;
+}
+
 .footer_container {
-    width: 1440px;
+    width: auto;
 }
 
 .default-button {
